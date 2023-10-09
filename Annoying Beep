@@ -1,0 +1,11 @@
+from winsound import Beep
+def AnnoyingBeep():
+    Beep(440, 1000)
+    Beep(440, 500)
+    Beep(690, 1000)
+    Beep(349, 350)
+    Beep(425, 500)
+    
+AnnoyingBeep()
+
+AnnoyingBeep()
