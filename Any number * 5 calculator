@@ -1,0 +1,5 @@
+def MultByFive(x):
+    return x*5
+
+num = int(input("enter a number: "))
+print("Your number times 5 is", MultByFive(num))
