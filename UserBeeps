@@ -1,0 +1,12 @@
+from winsound import Beep
+
+def UserBeeps(num):
+    numcounter = 0
+    while numcounter < num:
+        numcounter+=1
+        Beep(440, 500)
+        Beep(440, 500)
+        Beep(440, 500)
+num = int(input("How many times do you want the beep to play?: "))
+        
+UserBeeps(num)
