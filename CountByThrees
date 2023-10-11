@@ -1,0 +1,8 @@
+def CountByThrees():
+    for i in range (6, 37, 3):
+        print(i, end = " ")
+
+CountByThrees()
+CountByThrees()
+
+print()
