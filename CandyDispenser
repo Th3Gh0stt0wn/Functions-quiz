@@ -1,0 +1,11 @@
+def CandyDispenser(num):
+    while num > 0:
+        print("you have", num, "pieces of candy left!")
+        candy = (input("do you want snickers or m&ms?"))
+        if candy == 'snickers':
+            print("heres your snickers!")
+        elif candy == 'm&ms':
+            print("heres your m&ms!")
+        num -= 1
+
+CandyDispenser(5)
