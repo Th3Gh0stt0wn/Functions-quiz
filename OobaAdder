@@ -1,0 +1,5 @@
+def OobaAdder():
+     print("Enter a word:")
+     word = input()
+     print(word+"ooba")
+OobaAdder()
