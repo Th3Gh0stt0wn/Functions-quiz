@@ -1,0 +1,7 @@
+def EnoughPizza(people, slices):
+    if people < slices*3:
+        print("you have enough pizza!")
+    else:
+        print("OMG you don't have enough pizza!!")
+        
+EnoughPizza(4, 15)
