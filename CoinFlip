@@ -1,0 +1,10 @@
+import random
+
+def CoinFlip():
+    num = random.randrange(100)
+    if num < 50:
+        return "heads"
+    else:
+        return "tails"
+        
+print(CoinFlip())
