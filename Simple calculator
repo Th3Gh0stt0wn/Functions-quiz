@@ -1,7 +1,8 @@
 def simple_calculator(num1, num2, operation):
     if operation == '+':
-        print(num1+num2)
+        return (num1+num2)
     elif operation == '-':
-        print(num1*num2) 
+        return(num1*num2) 
 
-simple_calculator(23, 87, '+')
+print(simple_calculator(23, 87, '+'))
+
