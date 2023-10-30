@@ -3,6 +3,5 @@ def CountByThrees():
         print(i, end = " ")
 
 CountByThrees()
-CountByThrees()
 
 print()
