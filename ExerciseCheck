@@ -1,14 +1,15 @@
 def ExerciseCheck():
-    exercize = int(input("How many minues of exercize do you get every week?: "))
-    if  exercize < 20:
-        print("Thats not enough exercize!")
+    exercise = int(input("How many minutes of exercise do you get every week?: "))
+    if  exercise < 20:
+        print("That's not enough exercise!")
     elif exercize < 100:
-        print("Get a bit more exercize!")
+        print("Get a bit more exercise!")
     elif exercize < 500:
-        print("Thats the perfect amount of exercize!")
+        print("That's the perfect amount of exercise!")
     elif exercize > 500:
-        print("Thats alot! Drinks Lots of water and protine!")
+        print("Thats alot! Drinks Lots of water and protein!")
 
 ExerciseCheck()
 
 print()
+
