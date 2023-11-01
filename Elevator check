@@ -1,0 +1,7 @@
+def elevator_check(weight):#2
+    if weight >= 1001:
+        print("Overloaded!!!")
+    else:
+        print("Your good to continue!")
+        
+elevator_check(1000)
