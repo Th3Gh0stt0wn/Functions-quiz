@@ -1,5 +1,5 @@
-def printword(num):
-    for i in range(num):
+def printword(word):
+    for i in range(word):
         print("Print anything")
     
 printword(100)
