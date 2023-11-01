@@ -1,0 +1,10 @@
+def traffic_light(color):
+    
+    if color == "red":
+        print("stop!")
+    elif color == "yellow":
+        print ("slow down!")
+    elif color == "green":
+        print ("GO!")
+    
+traffic_light("green")
