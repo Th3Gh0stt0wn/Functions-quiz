@@ -1,0 +1,59 @@
+def rocket_launch():#1
+    for i in range (10, 0, -1):
+        print(i, end = " ")
+        print()
+    if i == 1:
+        print("Blast off!!!!")
+
+rocket_launch() 
+
+print()
+
+def elevator_check(weight):#2
+    if weight >= 1001:
+        print("Overloaded!!!")
+    else:
+        print("Your good to continue!")
+        
+elevator_check(1000)
+
+print()
+
+def traffic_light(color):
+    
+    if color == "red":
+        print("stop!")
+    elif color == "yellow":
+        print ("slow down!")
+    elif color == "green":
+        print ("GO!")
+    
+traffic_light("green")
+
+print()
+
+def calculate_price(age):#4
+    
+    age = int(input("How old are you?: "))
+    if age <= 13:
+        return ("You owe $10!")
+    if age < 65:
+        return ("You owe $20!")
+    if age >= 65:
+        return ("You owe $15!")
+    
+print(calculate_price(16))
+
+print ()
+        
+def validate_password():#5
+    password= input("Input a good password!: ")
+    if password == "Metroid110":
+        print ("Correct")
+        return True    
+    else:
+        print("Try again")
+        return False
+check = False
+while check == False:
+    check = validate_password()
