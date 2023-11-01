@@ -1,0 +1,11 @@
+def calculate_price(age):#4
+    
+    age = int(input("How old are you?: "))
+    if age <= 13:
+        return ("You owe $10!")
+    if age < 65:
+        return ("You owe $20!")
+    if age >= 65:
+        return ("You owe $15!")
+    
+print(calculate_price(16))
