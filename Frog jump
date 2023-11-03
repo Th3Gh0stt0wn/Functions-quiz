@@ -1,0 +1,6 @@
+#The frog jumps
+def jump_frog (num):
+    for i in range (num):
+        print("Jump!", i, "Ribbit!")
+        
+jump_frog(5)
