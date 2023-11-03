@@ -1,0 +1,5 @@
+def questions(num):
+    for i in range (num):
+        print("Question", i)
+
+questions(69)
