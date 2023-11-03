@@ -1,0 +1,11 @@
+#Its a vampire
+def is_vampire (age, garlic):
+    if age> 1000 and garlic == False:
+        print("ITS A VAMPIRE")
+    else:
+        print("Not a vampire")
+
+is_vampire(6900, False)
+is_vampire(600, False)
+is_vampire(1500, False)
+is_vampire(900, True)
