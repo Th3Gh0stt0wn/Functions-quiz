@@ -1,0 +1,15 @@
+import random
+
+def GusNameGen():
+
+    num = random.randrange(100)
+    
+    if (num < 25):
+        print("Gus")
+        
+    elif (num < 75):
+        print("Guh")
+    else:
+        print("PrincessGus")
+        
+GusNameGen()
