@@ -1,0 +1,7 @@
+def BananaSplit(scoops, banana):
+    if scoops < banana*3:
+        print("Here's a banana split!!")
+    else:
+        print("Thats a plain sundae!")
+        
+BananaSplit(1, 3)
