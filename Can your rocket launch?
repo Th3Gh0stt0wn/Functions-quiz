@@ -1,0 +1,9 @@
+#Its a rocket launch!
+def rocket_launch(astronaut, fuel):
+    if fuel > astronaut*100:
+        return "launch successful!"
+    else:
+        return "insufficent fuel!"
+    
+print(rocket_launch(7, 4000))
+ 
